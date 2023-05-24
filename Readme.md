@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Michael Bem](https://up.htmlacademy.ru/htmlcss/37/user/2329541).
-* Наставник: `Неизвестно`.
+* Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957)
 
 ---
 

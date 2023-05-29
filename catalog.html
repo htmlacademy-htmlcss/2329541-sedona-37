@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Каталог отелей Седона</title>
+    <title>Каталог гостиниц Седона</title>
   </head>
 
   <body>
@@ -44,7 +44,41 @@
     </header>
     <section class="hotels-sedona">
       <h2 class="visually-hidden">Гостинницы Седоны</h2>
-    </section>>
+      <h3>Гостиницы Седоны</h3>
+      <form action="https://echo.htmlacademy.ru/courses" method="post">
+       <h3>Инфраструктура:</h3>
+       <label class="pool">Бассейн
+      <input type="checkbox" value="pool" checked>
+    </label>
+
+    <label class="parking">Парковка
+      <input type="checkbox" value="parking" checked>
+    </label>
+
+    <label class="wi-fi">WI-FI
+      <input type="checkbox" value="wi-fi">
+    </label>
+
+    <h3>Тип жилья:</h3>
+    <label class="hotel">Гостиница
+      <input type="radio" value="hotel" checked>
+    </label>
+
+    <label class="motel">Мотель
+      <input type="radio" value="motel" >
+    </label>
+
+    <label class="appartments">Апартаменты
+      <input type="radio" value="appartments">
+    </label>
+    <h3>Стоимость, ₽:</h3>
+
+    <input type="number" value="0" id="min-price">
+    <input type="number" value="9000" id="max-price">
+    <input type="range" min="0" max="10000" step="1" value="9000" id="range-price">
+    <input type="submit" value="Применить">
+</form>
+    </section>
     <section class="catalog">
       <h2 class="visually-hidden">Каталог</h2>
     </section>

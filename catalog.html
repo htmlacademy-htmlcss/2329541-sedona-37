@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог гостиниц Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -37,15 +38,21 @@
       </li>
     </ul>
 
-    <button class="main-button"  type="button">Хочу сюда!</button>
+    <button class="main-button footer-button"  type="button">Хочу сюда!</button>
 
 
       </nav>
     </header>
     <section class="hotels-sedona">
       <h2>Гостиницы Седоны</h2>
+       <ul class="idk-list">
+        <li class="idk-item"><img src="/images/catalog-house.svg" alt=""></li>
+        <li class="idk-item"><img src="/images/arrow-white.svg" alt=""></li>
+        <li class="idk-item"><p>Гостиницы</p></li>
 
-      <p>Гостиницы</p>
+        <!-- ↑Поменять классы ↑-->
+
+    </ul>
       <h3 class="visually-hidden">Выбор гостиниц Седона</h3>
 
       <form class="filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -109,11 +116,13 @@
           <input class="range-price" id="range-price-min" step="100" type="range" min="0" max="12000" value="0">
           <input class="range-price" id="range-price-max" step="100" type="range" min="0" max="12000">
 
+          <button class="extra-button" type="submit">Применить</button>
+          <button class="button reset-button" type="reset">Сбросить</button>
+
         </fieldset>
 
         <div class="control-buttons">
-          <button class="button" type="submit">Применить</button>
-          <button class="button reset-button" type="reset">Сбросить</button>
+
         </div>
       </form>
 
@@ -155,11 +164,15 @@
       <a class="more-inf" href="#">подробнее</a>
       <button class="add-to-favourite" type="button">в избранное</button>
       <div class="rating">
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star"></p>
+        <ul class="rating-stars">
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star"></li>
+
+
+        </ul>
         <p class="rating-text">Рейтинг: 8,5</p>
       </div>
     </li>
@@ -173,11 +186,15 @@
       <a class="more-inf" href="#">подробнее</a>
       <button class="add-to-favourite add-to-favourite-checked" type="button">в избранном</button>
       <div class="rating">
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star"></p>
+        <ul class="rating-stars">
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star"></li>
+
+
+        </ul>
         <p class="rating-text">Рейтинг: 9,2</p>
       </div>
     </li>
@@ -191,11 +208,15 @@
       <a class="more-inf" href="#">подробнее</a>
       <button class="add-to-favourite" type="button">в избранное</button>
       <div class="rating">
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star-fill"></p>
-        <p class="star"></p>
-        <p class="star"></p>
+        <ul class="rating-stars">
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star-fill"></li>
+          <li class="rating-star"></li>
+          <li class="rating-star"></li>
+
+
+        </ul>
         <p class="rating-text">Рейтинг: 6,9</p>
       </div>
     </li>
@@ -211,17 +232,21 @@
     </li>
   </ul>
   <div class="rating">
-    <p class="star-fill"></p>
-    <p class="star-fill"></p>
-    <p class="star"></p>
-    <p class="star"></p>
-    <p class="star"></p>
-    <p class="rating-text">Рейтинг: 5,0</p>
+    <ul class="rating-stars">
+    <li class="rating-star-fill"></li>
+    <li class="rating-star-fill"></li>
+    <li class="rating-star"></li>
+    <li class="rating-star"></li>
+    <li class="rating-star"></li>
+
+
+  </ul>
+  <p class="rating-text">Рейтинг: 5,0</p>
   </div>
 </div>
 <nav class="nav-hotels">
 <ul class="nav-list">
-  <li class="nav-item nav-item-current"><a class="nav-link" href="#">1</a></li>
+  <li class="nav-item nav-item-current"><a class="nav-link-current" href="#">1</a></li>
   <li class="nav-item"><a class="nav-link" href="#">2</a></li>
   <li class="nav-item"><a class="nav-link" href="#">3</a></li>
   <li class="nav-item"><a class="nav-link" href="#">...</a></li>
@@ -230,13 +255,13 @@
 </ul>
 </nav>
     </section>
-    <section class="subscribe">
+    <section class="subscribe-catalog">
       <h2 class="visually-hidden">Рассылка</h2>
       <h2>Подпишитесь на рассылку</h2>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form action="https://echo.htmlacademy.ru/courses" method="post">
           <input type="email" name="subscribe-email" value="Ваш e-mail">
-          <input type="submit" value="Подписаться">
+          <input type="submit" value="Подписаться" class="subscribe-button">
         </form>
     </section>
     <footer class="page-footer">
@@ -249,16 +274,15 @@
         </li>
         <li class="footer-item">
           <a href="https://t.me/htmlacademy">
-          <img src="images/tg.svg"  width="18" height="15" alt="Телеграмм">
+          <img src="images/tg.svg" width="18" height="15" alt="Телеграмм">
           </a>
         </li>
         <li class="footer-item">
-          <a href="https://www.youtube.com/user/htmlacademyru">
-          <img src="images/youtube.svg" width="22" height="17" alt="Ютуб">
-          </a>
+          <a href="https://www.youtube.com/user/htmlacademyru"><img src="images/youtube.svg" width="22" height="17" alt="Ютуб"></a>
+
         </li>
-      </ul>
-      <a class="phone" href="tel:+7622620563"> 8 (622) 62-05-63 </a>
+        </ul>
+      <a class="phone" href="tel:+7622620563">+7 (812) 812-12-12</a>
       <a href="https://htmlacademy.ru/">
       <img src="images/htmlacademy.svg" width="115" height="33" alt="Логотип HTML-academy">
       </a>

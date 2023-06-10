@@ -40,48 +40,48 @@ ul {
 }
 
 .hero {
-height: 485px;
-width: 1200px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-background: url(/images/index-background.jpg);
+  height: 485px;
+  width: 1200px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: url(/images/index-background.jpg);
 }
 .hero-welcome {
   margin-left: 30%;
 }
 
 .hero-bottom {
-margin-top: 21px;
+  margin-top: 21px;
 }
 
 .hero-text {
-width: 1200px;
-height: 261px;
-font-style: normal;
+  width: 1200px;
+  height: 261px;
+  font-style: normal;
 }
 
 .hero-text h3 {
-width: 620px;
-height: 72px;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
+  width: 620px;
+  height: 72px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
 }
 
-.hero-text p{
-width: 651px;
-height: 26px;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
+.hero-text p {
+  width: 651px;
+  height: 26px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
 
 }
 
 .advantages-item-blue {
-height: 385px;
-width: 400px;
-background-color:#82B3D3;
+  height: 385px;
+  width: 400px;
+  background-color: #82B3D3;
 }
 
 .advantages-item-blue h3 {
@@ -94,7 +94,7 @@ background-color:#82B3D3;
   text-transform: uppercase;
 }
 
-.advantages-item-blue p  {
+.advantages-item-blue p {
   color: #FFFFFF;
   font-weight: 400;
   font-size: 18px;
@@ -105,7 +105,7 @@ background-color:#82B3D3;
 .advantages-item {
   height: 385px;
   width: 400px;
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .advantages-item h3 {
@@ -117,7 +117,7 @@ background-color:#82B3D3;
   text-transform: uppercase;
 }
 
-.advantages-item p  {
+.advantages-item p {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -138,130 +138,130 @@ background-color:#82B3D3;
 
 .footer-button {
   width: 160px;
-height: 36px;
+  height: 36px;
 }
 
 .come-to-sedon {
-width: 1200px;
-height: 246px;
+  width: 1200px;
+  height: 246px;
 }
 
-.come-to-sedon h2{
-width: 505px;
-height: 72px;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-text-transform: uppercase;
+.come-to-sedon h2 {
+  width: 505px;
+  height: 72px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .come-to-sedon p {
-width: 490px;
-height: 26px;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
+  width: 490px;
+  height: 26px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 
 
 
 .services-list-item {
-height: 385px;
-width: 400px;
-text-align: center;
+  height: 385px;
+  width: 400px;
+  text-align: center;
 }
 
 .services-list-item p {
   font-size: 18px;
   line-height: 21px;
-  }
+}
 
-  .services-list-item h3 {
-font-size: 24px;
-line-height: 28px;
-text-transform: uppercase;
-  }
+.services-list-item h3 {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
 
-  .search {
-    width: 1200px;
-    height: 406px;
-    text-align: center;
-  }
+.search {
+  width: 1200px;
+  height: 406px;
+  text-align: center;
+}
 
-  .search h2 {
+.search h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  }
+}
 
-  .search p {
+.search p {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  }
+}
 
-  .search-button {
-text-decoration: none;
-font-size: 20px;
-line-height: 36px;
-  }
+.search-button {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 36px;
+}
 
-  .subscribe {
-color: white;
-width: 1200px;
-height: 414.86px;
-padding: 96px 258px 104px;
-gap: 10px;
-background: url(/images/subscribe-background.jpg);
-background-position: 0 10%;
-  }
+.subscribe {
+  color: white;
+  width: 1200px;
+  height: 414.86px;
+  padding: 96px 258px 104px;
+  gap: 10px;
+  background: url(/images/subscribe-background.jpg);
+  background-position: 0 10%;
+}
 
 .subscribe h2 {
   font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .subscribe p {
   font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
 }
 
 .subscribe form {
 
-text-align: center;
+  text-align: center;
 }
 
 .phone {
   color: black;
   text-decoration: none;
   font-weight: 400;
-font-size: 40px;
-line-height: 40px;
+  font-size: 40px;
+  line-height: 40px;
 
 }
 
 .hotels-sedona {
-width: 1200px;
-height: 412px;
-background: url(/images/catalog-background.jpg);
+  width: 1200px;
+  height: 412px;
+  background: url(/images/catalog-background.jpg);
 }
 
 .hotels-sedona h2 {
   font-weight: 700;
-font-size: 60px;
-line-height: 78px;
-color: white;
+  font-size: 60px;
+  line-height: 78px;
+  color: white;
 }
 
-.filter{
-  background: url(../images/catalog/Filter.jpg) no-repeat ;
+.filter {
+  background: url(../images/catalog/Filter.jpg) no-repeat;
   width: 1200px;
   height: 412px;
   color: #FFFFFF;
@@ -274,21 +274,21 @@ color: white;
 .filter-group {
   display: inline-block;
   font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .filter-group .control {
   font-weight: 400;
-font-size: 18px;
-line-height: 23px;
+  font-size: 18px;
+  line-height: 23px;
 }
 
 .hotels-sedona p {
   font-weight: 400;
-font-size: 16px;
-line-height: 21px;
-color: white;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
 }
 
 .idk-item {
@@ -301,13 +301,13 @@ color: white;
   background-color: #82B3D3;
   color: white;
   width: 191px;
-height: 36px;
-border: none;
-border-radius: 4px;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
 
 }
 
@@ -316,23 +316,23 @@ text-transform: uppercase;
   border: none;
   color: white;
   font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .more-inf {
   width: 140px;
-height: 36px;
-background: #756157;
-border-radius: 4px;
-text-decoration: none;
-color: white;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
+  height: 36px;
+  background: #756157;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
 .add-to-favourite {
@@ -341,12 +341,12 @@ text-transform: uppercase;
   border-radius: 4px;
   width: 140px;
   height: 36px;
-text-align: center;
-border: none;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
+  text-align: center;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
 .add-to-favourite-checked {
@@ -356,7 +356,7 @@ text-transform: uppercase;
 .rating-star-fill {
   background-image: url(/images/star.svg);
   height: 17px;
-width: 18px;
+  width: 18px;
 
 
 
@@ -364,7 +364,7 @@ width: 18px;
 
 .rating-stars li {
 
-    display: inline-block;
+  display: inline-block;
 
 }
 
@@ -375,24 +375,24 @@ width: 18px;
   padding: 96px 258px 104px;
   gap: 10px;
 
-    }
+}
 
-  .subscribe h2 {
-    font-weight: 700;
+.subscribe h2 {
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  }
+}
 
-  .subscribe p {
-    font-weight: 400;
+.subscribe p {
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  }
+}
 
-  .subscribe-button {
-    background-color: #82B3D3;
+.subscribe-button {
+  background-color: #82B3D3;
   text-align: center;
   border-radius: 4px;
   border: none;
@@ -404,38 +404,38 @@ width: 18px;
   height: 52px;
   width: 232px;
 
-  }
+}
 
-  .nav-link {
-font-weight: 700;
-font-size: 20px;
-line-height: 36px;
-text-decoration: none;
-color: white;
-text-transform: uppercase;
-  }
+.nav-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
 
-  .nav-link-current {
-color: black;
-text-decoration: none;
-  }
+.nav-link-current {
+  color: black;
+  text-decoration: none;
+}
 
-  .offers p {
-    font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-  }
+.offers p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
 
-  .offers h3 {
-    font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-  }
+.offers h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
 
-  .rating-text {
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
-  }
+.rating-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}

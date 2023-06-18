@@ -17,16 +17,29 @@
 body {
   font-family: "PT Sans", sans-serif;
   color: #000000;
-  background-color: #fbf7f4;
-
+  background: #F2F2F2;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
+
 ul {
   list-style-type: none;
 
 }
 
+html {
+  height: 100%;
+}
+
 .visually-hidden {
   visibility: hidden;
+  position: absolute;
+}
+
+.navigation {
+  display: flex;
+  margin: 0 auto;
 }
 
 
@@ -39,20 +52,34 @@ ul {
   text-decoration: none;
 }
 
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 507px;
+}
+
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
+}
+
 .hero {
   height: 485px;
-  width: 1200px;
+
   left: 0px;
   top: 0px;
   border-radius: 0px;
   background: url(/images/index-background.jpg);
 }
+
 .hero-welcome {
-  margin-left: 30%;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-bottom {
-  margin-top: 21px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-text {
@@ -67,6 +94,7 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin: 0 auto;
 }
 
 .hero-text p {
@@ -75,6 +103,23 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  margin: 0 auto;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.advantages-item {
+  height: 385px;
+  width: 400px;
+  background-color: #FFFFFF;
 
 }
 
@@ -82,6 +127,27 @@ ul {
   height: 385px;
   width: 400px;
   background-color: #82B3D3;
+}
+
+.advantages-img {
+  height: 385px;
+  width: 800px;
+}
+
+.advantages-item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-item p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
 }
 
 .advantages-item-blue h3 {
@@ -100,29 +166,9 @@ ul {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+
 }
 
-.advantages-item {
-  height: 385px;
-  width: 400px;
-  background-color: #FFFFFF;
-}
-
-.advantages-item h3 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.advantages-item p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-}
 
 .main-button {
   background-color: #756157;
@@ -142,7 +188,8 @@ ul {
 }
 
 .come-to-sedon {
-  width: 1200px;
+
+
   height: 246px;
 }
 
@@ -152,8 +199,8 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .come-to-sedon p {
@@ -162,15 +209,14 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  margin: 0 auto;
 }
-
-
-
 
 .services-list-item {
   height: 385px;
   width: 400px;
   text-align: center;
+
 }
 
 .services-list-item p {
@@ -182,6 +228,13 @@ ul {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.services-list {
+  width: 1200px;
+  height: 385px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .search {
@@ -211,8 +264,6 @@ ul {
 
 .subscribe {
   color: white;
-  width: 1200px;
-  height: 414.86px;
   padding: 96px 258px 104px;
   gap: 10px;
   background: url(/images/subscribe-background.jpg);
@@ -250,6 +301,7 @@ ul {
 .hotels-sedona {
   width: 1200px;
   height: 412px;
+  margin: 0 auto;
   background: url(/images/catalog-background.jpg);
 }
 
@@ -276,6 +328,7 @@ ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+
 }
 
 .filter-group .control {
@@ -369,6 +422,7 @@ ul {
 }
 
 .subscribe-catalog {
+  margin: 0 auto;
   color: black;
   width: 1200px;
   height: 414.86px;
@@ -377,14 +431,14 @@ ul {
 
 }
 
-.subscribe h2 {
+.subscribe-catalog h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
 }
 
-.subscribe p {
+.subscribe-catalog p {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -438,4 +492,32 @@ ul {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.catalog {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 1060px;
+
+}
+
+.div-offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

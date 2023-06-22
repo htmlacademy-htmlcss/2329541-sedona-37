@@ -114,19 +114,22 @@
           <h2>Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</h2>
           <p>Опытный персонал и качественное обслуживание!</p>
         </section>
+
         <section class="services">
           <ul class="services-list">
 
-            <li class="services-list-item services-list-item-1">
+            <li class="services-list-item">
+              <img src="/images/house.svg">
               <h3>Жильё</h3> Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!
             </li>
 
-
-            <li class="services-list-item services-list-item-2">
+            <li class="services-list-item">
+              <img src="/images/food.svg">
               <h3>Еда</h3> Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!
             </li>
 
-            <li class="services-list-item services-list-item-3">
+            <li class="services-list-item">
+              <img src="/images/gifts.svg">
               <h3>Сувениры</h3>Не только китайского,<br> но и настоящего местного<br> производства!
             </li>
           </ul>
@@ -136,19 +139,19 @@
           <div class="container">
             <h2 class="visually-hidden">Поиск</h2>
             <h2>Заинтересовались?</h2>
-            <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
             <a href="#" class="main-button button-search">ПОИСК ГОСТИНИЦЫ В седоне</a>
           </div>
         </section>
 
         <section class="subscribe">
-          <div class="container">
+          <div class="subscribe-d">
             <h2 class="visually-hidden">Рассылка</h2>
             <h2>Подпишитесь на рассылку</h2>
             <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-            <form action="https://echo.htmlacademy.ru/courses" method="post">
-              <input type="email" name="subscribe-email" value="Ваш e-mail">
-              <input type="submit" value="Подписаться">
+            <form action="https://echo.htmlacademy.ru/courses" method="post" class="subscribe-form">
+              <input type="email" name="subscribe-email" value="Ваш e-mail" class="subscribe-enter">
+              <input type="submit" value="Подписаться" class="subscribe-button">
             </form>
           </div>
         </section>
@@ -157,7 +160,7 @@
     <footer class="page-footer">
       <div class="container">
         <address>
-          <ul>
+          <ul class="footer-list">
             <li class="footer-item">
               <a href="https://vk.com/htmlacademy">
                 <img src="images/vk.svg" width="24" height="14" alt="Вконтакте">
@@ -172,12 +175,13 @@
               <a href="https://www.youtube.com/user/htmlacademyru"><img src="images/youtube.svg" width="22" height="17"
                   alt="Ютуб"></a>
 
-            </li>
-          </ul>
-          <a class="phone" href="tel:+7622620563">+7 (812) 812-12-12</a>
-          <a href="https://htmlacademy.ru/">
+            </li> </ul>
+            <ul class="footer-list footer-list-contacts">
+          <li class="footer-item"><a class="phone" href="tel:+7622620563">+7 (812) 812-12-12</a></li>
+          <li class="footer-item"><a href="https://htmlacademy.ru/">
             <img src="images/htmlacademy.svg" width="115" height="33" alt="Логотип HTML-academy">
-          </a>
+          </a></li>
+        </ul>
         </address>
       </div>
     </footer>

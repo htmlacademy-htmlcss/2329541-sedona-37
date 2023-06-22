@@ -53,6 +53,9 @@ html {
 }
 
 .navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
   width: 507px;
@@ -61,6 +64,14 @@ html {
 .navigation-user {
   max-width: 300px;
   margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navigation {
+  display: grid;
 }
 
 .hero {
@@ -78,14 +89,16 @@ html {
 }
 
 .hero-bottom {
+  margin-top: 76px;
   display: block;
-  margin: 0 auto;
+
 }
 
 .hero-text {
   width: 1200px;
   height: 261px;
   font-style: normal;
+  margin-top: 69px;
 }
 
 .hero-text h3 {
@@ -95,6 +108,7 @@ html {
   font-size: 30px;
   line-height: 36px;
   margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .hero-text p {
@@ -104,6 +118,7 @@ html {
   font-size: 22px;
   line-height: 26px;
   margin: 0 auto;
+  margin-bottom: 69px;
 }
 
 .advantages-list {
@@ -120,8 +135,22 @@ html {
   height: 385px;
   width: 400px;
   background-color: #FFFFFF;
+  vertical-align: middle;
 
 }
+
+.advantages-item:nth-child(3) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(4) {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item:nth-child(5) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
 
 .advantages-item-blue {
   height: 385px;
@@ -141,6 +170,8 @@ html {
 
   text-align: center;
   text-transform: uppercase;
+  margin-top: 103px;
+  margin-bottom: 60px;
 }
 
 .advantages-item p {
@@ -201,6 +232,8 @@ html {
   line-height: 36px;
   text-transform: uppercase;
   margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 20px;
 }
 
 .come-to-sedon p {
@@ -210,12 +243,14 @@ html {
   font-size: 22px;
   line-height: 26px;
   margin: 0 auto;
+  margin-bottom: 64px;
 }
 
 .services-list-item {
   height: 385px;
   width: 400px;
   text-align: center;
+
 
 }
 
@@ -231,10 +266,22 @@ html {
 }
 
 .services-list {
-  width: 1200px;
+  padding-left: 0;
   height: 385px;
   display: flex;
   justify-content: flex-start;
+}
+
+.services-list-item:nth-child(1) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.services-list-item:nth-child(3) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.services-list-item img {
+  margin-top: 80px;
 }
 
 .search {
@@ -248,6 +295,7 @@ html {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin-top: 96px;
 }
 
 .search p {
@@ -256,7 +304,9 @@ html {
   line-height: 26px;
 }
 
-.search-button {
+
+
+.button-search {
   text-decoration: none;
   font-size: 20px;
   line-height: 36px;
@@ -267,7 +317,8 @@ html {
   padding: 96px 258px 104px;
   gap: 10px;
   background: url(/images/subscribe-background.jpg);
-  background-position: 0 10%;
+  background-position: top;
+  background-size: 100%;
 }
 
 .subscribe h2 {
@@ -275,6 +326,7 @@ html {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+
 }
 
 .subscribe p {
@@ -282,11 +334,20 @@ html {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+
 }
 
 .subscribe form {
-
   text-align: center;
+  display: flex;
+  border: none;
+
+}
+
+.subscribe-enter {
+  border-radius: 4px 0px 0px 4px;
+  width: 452px;
+  height: 52px;
 }
 
 .phone {
@@ -310,6 +371,9 @@ html {
   font-size: 60px;
   line-height: 78px;
   color: white;
+  margin: 0;
+  margin-left: 70px;
+  margin-top: 35px;
 }
 
 .filter {
@@ -319,7 +383,9 @@ html {
   color: #FFFFFF;
   font-size: 18px;
   line-height: 23px;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+    align-items: flex-start;
 
 }
 
@@ -346,6 +412,14 @@ html {
 
 .idk-item {
   display: inline-block;
+
+}
+
+.idk-list {
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  padding: 0;
 }
 
 /* ↑Поменять класс↑ */
@@ -361,6 +435,7 @@ html {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  margin-bottom: 32px;
 
 }
 
@@ -373,6 +448,7 @@ html {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding: 8px 50px;
 }
 
 .more-inf {
@@ -386,6 +462,7 @@ html {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+
 }
 
 .add-to-favourite {
@@ -419,6 +496,10 @@ html {
 
   display: inline-block;
 
+}
+
+.rating-stars {
+  padding: 0;
 }
 
 .subscribe-catalog {
@@ -458,6 +539,11 @@ html {
   height: 52px;
   width: 232px;
 
+
+}
+
+.subscribe-catalog form {
+  margin-left: 258px;
 }
 
 .nav-link {
@@ -520,4 +606,57 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.div-offers h3 {
+  font-size: 30px;
+  font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+
+.footer-list {
+  display: flex;
+  max-width: 142px;
+  justify-content: space-around;
+}
+
+.footer-list-contacts {
+  display: flex;
+  justify-content: space-between;
+  max-width: 720px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.page-footer {
+  display: grid;
+}
+
+fieldset {
+  border: none;
+}
+
+.price-control {
+  width: 143px;
+  height: 48px;
+}
+
+.filter-group {
+ padding: 0;
+ margin-left: 70px;
+}
+
+.sort-choise {
+  width: 292px;
+  height: 49px;
+  padding: 14px 20px;
+}
+
+.variants-view {
+  display: flex;
+  width: 160px;
+  justify-content: space-evenly;
 }

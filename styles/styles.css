@@ -17,16 +17,29 @@
 body {
   font-family: "PT Sans", sans-serif;
   color: #000000;
-  background-color: #fbf7f4;
-
+  background: #F2F2F2;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
+
 ul {
   list-style-type: none;
 
 }
 
+html {
+  height: 100%;
+}
+
 .visually-hidden {
   visibility: hidden;
+  position: absolute;
+}
+
+.navigation {
+  display: flex;
+  margin: 0 auto;
 }
 
 
@@ -39,26 +52,53 @@ ul {
   text-decoration: none;
 }
 
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 507px;
+}
+
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navigation {
+  display: grid;
+}
+
 .hero {
   height: 485px;
-  width: 1200px;
+
   left: 0px;
   top: 0px;
   border-radius: 0px;
   background: url(/images/index-background.jpg);
 }
+
 .hero-welcome {
-  margin-left: 30%;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-bottom {
-  margin-top: 21px;
+  margin-top: 76px;
+  display: block;
+
 }
 
 .hero-text {
   width: 1200px;
   height: 261px;
   font-style: normal;
+  margin-top: 69px;
 }
 
 .hero-text h3 {
@@ -67,6 +107,8 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .hero-text p {
@@ -75,13 +117,68 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.advantages-item {
+  height: 385px;
+  width: 400px;
+  background-color: #FFFFFF;
+  vertical-align: middle;
 
 }
+
+.advantages-item:nth-child(3) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(4) {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item:nth-child(5) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
 
 .advantages-item-blue {
   height: 385px;
   width: 400px;
   background-color: #82B3D3;
+}
+
+.advantages-img {
+  height: 385px;
+  width: 800px;
+}
+
+.advantages-item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 103px;
+  margin-bottom: 60px;
+}
+
+.advantages-item p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
 }
 
 .advantages-item-blue h3 {
@@ -100,29 +197,9 @@ ul {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+
 }
 
-.advantages-item {
-  height: 385px;
-  width: 400px;
-  background-color: #FFFFFF;
-}
-
-.advantages-item h3 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.advantages-item p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-}
 
 .main-button {
   background-color: #756157;
@@ -142,7 +219,8 @@ ul {
 }
 
 .come-to-sedon {
-  width: 1200px;
+
+
   height: 246px;
 }
 
@@ -152,8 +230,10 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 20px;
 }
 
 .come-to-sedon p {
@@ -162,15 +242,16 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  margin: 0 auto;
+  margin-bottom: 64px;
 }
-
-
-
 
 .services-list-item {
   height: 385px;
   width: 400px;
   text-align: center;
+
+
 }
 
 .services-list-item p {
@@ -184,6 +265,25 @@ ul {
   text-transform: uppercase;
 }
 
+.services-list {
+  padding-left: 0;
+  height: 385px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.services-list-item:nth-child(1) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.services-list-item:nth-child(3) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.services-list-item img {
+  margin-top: 80px;
+}
+
 .search {
   width: 1200px;
   height: 406px;
@@ -195,6 +295,7 @@ ul {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin-top: 96px;
 }
 
 .search p {
@@ -203,7 +304,9 @@ ul {
   line-height: 26px;
 }
 
-.search-button {
+
+
+.button-search {
   text-decoration: none;
   font-size: 20px;
   line-height: 36px;
@@ -211,12 +314,11 @@ ul {
 
 .subscribe {
   color: white;
-  width: 1200px;
-  height: 414.86px;
   padding: 96px 258px 104px;
   gap: 10px;
   background: url(/images/subscribe-background.jpg);
-  background-position: 0 10%;
+  background-position: top;
+  background-size: 100%;
 }
 
 .subscribe h2 {
@@ -224,6 +326,7 @@ ul {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+
 }
 
 .subscribe p {
@@ -231,11 +334,20 @@ ul {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+
 }
 
 .subscribe form {
-
   text-align: center;
+  display: flex;
+  border: none;
+
+}
+
+.subscribe-enter {
+  border-radius: 4px 0px 0px 4px;
+  width: 452px;
+  height: 52px;
 }
 
 .phone {
@@ -250,6 +362,7 @@ ul {
 .hotels-sedona {
   width: 1200px;
   height: 412px;
+  margin: 0 auto;
   background: url(/images/catalog-background.jpg);
 }
 
@@ -258,6 +371,9 @@ ul {
   font-size: 60px;
   line-height: 78px;
   color: white;
+  margin: 0;
+  margin-left: 70px;
+  margin-top: 35px;
 }
 
 .filter {
@@ -267,7 +383,9 @@ ul {
   color: #FFFFFF;
   font-size: 18px;
   line-height: 23px;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+    align-items: flex-start;
 
 }
 
@@ -276,6 +394,7 @@ ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+
 }
 
 .filter-group .control {
@@ -293,6 +412,14 @@ ul {
 
 .idk-item {
   display: inline-block;
+
+}
+
+.idk-list {
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  padding: 0;
 }
 
 /* ↑Поменять класс↑ */
@@ -308,6 +435,7 @@ ul {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  margin-bottom: 32px;
 
 }
 
@@ -320,6 +448,7 @@ ul {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding: 8px 50px;
 }
 
 .more-inf {
@@ -333,6 +462,7 @@ ul {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+
 }
 
 .add-to-favourite {
@@ -368,7 +498,12 @@ ul {
 
 }
 
+.rating-stars {
+  padding: 0;
+}
+
 .subscribe-catalog {
+  margin: 0 auto;
   color: black;
   width: 1200px;
   height: 414.86px;
@@ -377,14 +512,14 @@ ul {
 
 }
 
-.subscribe h2 {
+.subscribe-catalog h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
 }
 
-.subscribe p {
+.subscribe-catalog p {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -404,6 +539,11 @@ ul {
   height: 52px;
   width: 232px;
 
+
+}
+
+.subscribe-catalog form {
+  margin-left: 258px;
 }
 
 .nav-link {
@@ -438,4 +578,85 @@ ul {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.catalog {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 1060px;
+
+}
+
+.div-offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.div-offers h3 {
+  font-size: 30px;
+  font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+
+.footer-list {
+  display: flex;
+  max-width: 142px;
+  justify-content: space-around;
+}
+
+.footer-list-contacts {
+  display: flex;
+  justify-content: space-between;
+  max-width: 720px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.page-footer {
+  display: grid;
+}
+
+fieldset {
+  border: none;
+}
+
+.price-control {
+  width: 143px;
+  height: 48px;
+}
+
+.filter-group {
+ padding: 0;
+ margin-left: 70px;
+}
+
+.sort-choise {
+  width: 292px;
+  height: 49px;
+  padding: 14px 20px;
+}
+
+.variants-view {
+  display: flex;
+  width: 160px;
+  justify-content: space-evenly;
 }

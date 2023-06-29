@@ -341,7 +341,7 @@ html {
   color: white;
   padding: 96px 258px 104px;
   gap: 10px;
-  background: url(/images/subscribe-background.jpg);
+  background: url(../images/subscribe-background.jpg);
   background-position: top;
   background-size: 100%;
 }
@@ -390,7 +390,7 @@ html {
   width: 1200px;
   height: 412px;
   margin: 0 auto;
-  background: url(/images/catalog-background.jpg);
+  background: url(../images/catalog-background.jpg);
 }
 
 .hotels-sedona-text-h2 {
@@ -516,7 +516,7 @@ html {
 }
 
 .rating-star-fill {
-  background-image: url(/images/star.svg);
+  background: url(../images/star.svg);
   height: 17px;
   width: 18px;
 

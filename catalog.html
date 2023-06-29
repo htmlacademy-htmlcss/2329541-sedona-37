@@ -14,14 +14,14 @@
           <ul class="navigation-list">
             <li class="navigation-item">
               <a class="navigation-link" href="index.html">
-                <img src="images/logo.svg" width="140" height="80" alt="Логотип">
+                <img src="images/logo.svg" width="140" height="80" alt="Логотип" class="logo">
               </a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">О Седоне</a>
+              <a class="navigation-link" href="#">О&nbsp;Седоне</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -236,7 +236,7 @@
             <p>Гостиница</p>
             <p>От 1500 ₽</p>
             <a class="more-inf" href="#">подробнее</a>
-            <button class="add-to-favourite" type="button">в избранное</button>
+            <button class="add-to-favourite" type="button">в  избранное</button>
             <div class="rating">
               <ul class="rating-stars">
                 <li class="rating-star-fill"></li>
@@ -253,14 +253,16 @@
         </ul>
 
       </div>
-
+    </section>
+    <section class="catalog-navigation">
       <nav class="nav-hotels">
         <ul class="nav-list">
-          <li class="nav-item nav-item-current"><a class="nav-link-current" href="#">1</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">2</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">3</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">...</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">10</a>
+          <li class="catalog-nav-item catalog-nav-item-white"><a class="nav-link nav-link-white" href="#">1</a></li>
+          <li class="catalog-nav-item"><a class="nav-link" href="#">2</a></li>
+          <li class="catalog-nav-item"><a class="nav-link" href="#">3</a></li>
+          <li class="catalog-nav-item"><a class="nav-link" href="#">4</a></li>
+          <li class="catalog-nav-item catalog-nav-item-white"><a class="nav-link nav-link-white" href="#">...</a></li>
+          <li class="catalog-nav-item"><a class="nav-link" href="#">10</a>
           </li>
         </ul>
       </nav>
@@ -276,8 +278,8 @@
     </section>
     <footer class="page-footer">
       <div class="container">
-        <address>
-          <ul>
+        <address class="adress-footer">
+          <ul class="footer-list">
             <li class="footer-item">
               <a href="https://vk.com/htmlacademy">
                 <img src="images/vk.svg" width="24" height="14" alt="Вконтакте">
@@ -292,12 +294,13 @@
               <a href="https://www.youtube.com/user/htmlacademyru"><img src="images/youtube.svg" width="22" height="17"
                   alt="Ютуб"></a>
 
-            </li>
-          </ul>
-          <a class="phone" href="tel:+7622620563">+7 (812) 812-12-12</a>
-          <a href="https://htmlacademy.ru/">
+            </li> </ul>
+            <ul class="footer-list footer-list-contacts">
+          <li class="footer-item"><a class="phone" href="tel:+7622620563">+7 (812) 812-12-12</a></li>
+          <li class="footer-item" style="align-self: flex-end;"><a href="https://htmlacademy.ru/">
             <img src="images/htmlacademy.svg" width="115" height="33" alt="Логотип HTML-academy">
-          </a>
+          </a></li>
+        </ul>
         </address>
       </div>
     </footer>

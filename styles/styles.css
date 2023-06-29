@@ -23,6 +23,13 @@ body {
   flex-direction: column;
 }
 
+
+main {
+  background-color: white;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 ul {
   list-style-type: none;
 
@@ -37,10 +44,6 @@ html {
   position: absolute;
 }
 
-.navigation {
-  display: flex;
-  margin: 0 auto;
-}
 
 
 .navigation-link {
@@ -50,29 +53,37 @@ html {
   text-align: center;
   color: #000000;
   text-decoration: none;
+  padding: 20px 16px;
 }
 
 .navigation-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin: 0;
   padding: 0;
   width: 507px;
+  margin-right: auto;
 }
 
 .navigation-user {
   max-width: 300px;
-  margin-left: auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin-right: 70px;
+  margin-left: 350px;
 
 }
 
 .navigation {
   display: grid;
+  grid-template-columns: 507px 268px;
+  margin: 0 auto;
+  background-color: white;
+
 }
+
+
 
 .hero {
   height: 485px;
@@ -86,10 +97,11 @@ html {
 .hero-welcome {
   display: block;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .hero-bottom {
-  margin-top: 76px;
+  margin-top: 26px;
   display: block;
 
 }
@@ -98,7 +110,8 @@ html {
   width: 1200px;
   height: 261px;
   font-style: normal;
-  margin-top: 69px;
+  padding-top: 69px;
+  background-color: white;
 }
 
 .hero-text h3 {
@@ -109,6 +122,7 @@ html {
   line-height: 36px;
   margin: 0 auto;
   margin-bottom: 25px;
+
 }
 
 .hero-text p {
@@ -120,6 +134,8 @@ html {
   margin: 0 auto;
   margin-bottom: 69px;
 }
+
+
 
 .advantages-list {
   margin: 0;
@@ -219,9 +235,8 @@ html {
 }
 
 .come-to-sedon {
-
-
-  height: 246px;
+height: 246px;
+background-color: white;
 }
 
 .come-to-sedon h2 {
@@ -288,6 +303,7 @@ html {
   width: 1200px;
   height: 406px;
   text-align: center;
+  background-color: white;
 }
 
 .search h2 {
@@ -310,6 +326,7 @@ html {
   text-decoration: none;
   font-size: 20px;
   line-height: 36px;
+  padding: 8px 50px
 }
 
 .subscribe {
@@ -462,6 +479,7 @@ html {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  padding: 8px 30px;
 
 }
 
@@ -477,6 +495,7 @@ html {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  padding: 8px 10px;
 }
 
 .add-to-favourite-checked {
@@ -539,25 +558,10 @@ html {
   height: 52px;
   width: 232px;
 
-
 }
 
 .subscribe-catalog form {
   margin-left: 258px;
-}
-
-.nav-link {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-}
-
-.nav-link-current {
-  color: black;
-  text-decoration: none;
 }
 
 .offers p {
@@ -607,7 +611,7 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-left: 70px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .div-offers h3 {
@@ -629,12 +633,16 @@ text-transform: uppercase;
   max-width: 720px;
   flex-wrap: wrap;
   margin: 0;
+  margin-left: 100px;
+  padding: 0;
 }
 
-.page-footer {
+.page-footer address {
   display: grid;
+  grid-template-columns: 142px 900px;
+  justify-content: space-between;
+  margin: 40px 30px;
 }
-
 fieldset {
   border: none;
 }
@@ -659,4 +667,70 @@ fieldset {
   display: flex;
   width: 160px;
   justify-content: space-evenly;
+}
+
+.logo {
+  margin-right: 30px;
+  padding-left: 70px;
+
+}
+
+.page-footer {
+  width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.offers-item {
+  padding: 20px;
+}
+
+.offers-list {
+  padding: 0;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.nav-list {
+  display: flex;
+  padding-left: 0;
+}
+
+.catalog-nav-item {
+  background: #82B3D3;
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: none;
+ margin-right: 8px;
+
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #F2F2F2;
+  text-transform: uppercase;
+
+}
+
+.nav-link-white {
+  color: black;
+}
+
+.catalog-nav-item-white {
+  background-color: white;
+}
+
+.catalog-navigation {
+  width: 1200px;
+  margin: 0 auto;
 }

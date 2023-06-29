@@ -13,7 +13,7 @@
       <div class="container">
         <nav class="navigation">
           <ul class="navigation-list">
-            <li class="navigation-item">
+            <li class="navigation-item navigation-logo">
               <a class="navigation-link" href="index.html">
                 <img src="images/logo.svg" width="140" height="80" alt="Логотип" class="logo">
               </a>
@@ -28,7 +28,7 @@
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-          <ul class="navigation-list navigation-user">
+          <ul class="navigation-user">
             <li class="navigation-item">
               <a class="navigation-link" href="#">
                 <img src="images/search.svg" width="20" height="20" alt="Поиск">
@@ -45,18 +45,14 @@
           </ul>
         </nav>
       </div>
-
-
-
-
     </header>
     <section class="hotels-sedona">
-      <h2>Гостиницы Седоны</h2>
+      <h2 class="hotels-sedona-text-h2">Гостиницы Седоны</h2>
       <ul class="idk-list">
         <li class="idk-item"><img src="/images/catalog-house.svg" alt=""></li>
         <li class="idk-item"><img src="/images/arrow-white.svg" alt=""></li>
         <li class="idk-item">
-          <p>Гостиницы</p>
+          <p class="hotels-sedona-text-p">Гостиницы</p>
         </li>
 
         <!-- ↑Поменять классы ↑-->
@@ -124,7 +120,7 @@
           <input class="range-price" id="range-price-min" step="100" type="range" min="0" max="12000" value="0">
           <input class="range-price" id="range-price-max" step="100" type="range" min="0" max="12000">
         </fieldset>
-          <fieldset class="filter-group">
+        <fieldset class="filter-group">
           <button class="extra-button" type="submit">Применить</button><br>
           <button class="button reset-button" type="reset">Сбросить</button>
 
@@ -166,9 +162,10 @@
       <div class="offers">
         <ul class="offers-list">
           <li class="offers-item">
-            <img src="images/hotels/hotel-1.jpg" width="300" height="212" alt="гостиница Amara Resort & Spa">
-            <h3>Amara Resort & Spa</h3>
-            <p>Гостиница</p>
+            <img src="images/hotels/hotel-1.jpg" width="300" height="212" alt="гостиница Amara Resort & Spa"
+              class="offers-imem-img">
+            <h3 class="offers-imem-name">Amara Resort & Spa</h3>
+            <p class="offers-item-p">Гостиница</p>
             <p>От 4000 ₽</p>
             <a class="more-inf" href="#">подробнее</a>
             <button class="add-to-favourite" type="button">в избранное</button>
@@ -237,7 +234,7 @@
             <p>Гостиница</p>
             <p>От 1500 ₽</p>
             <a class="more-inf" href="#">подробнее</a>
-            <button class="add-to-favourite" type="button">в  избранное</button>
+            <button class="add-to-favourite" type="button">в избранное</button>
             <div class="rating">
               <ul class="rating-stars">
                 <li class="rating-star-fill"></li>
@@ -256,6 +253,7 @@
       </div>
     </section>
     <section class="catalog-navigation">
+      <h2 class="visually-hidden">Навигация</h2>
       <nav class="nav-hotels">
         <ul class="nav-list">
           <li class="catalog-nav-item catalog-nav-item-white"><a class="nav-link nav-link-white" href="#">1</a></li>
@@ -270,8 +268,8 @@
     </section>
     <section class="subscribe-catalog">
       <h2 class="visually-hidden">Рассылка</h2>
-      <h2>Подпишитесь на рассылку</h2>
-      <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+      <h2 class="subscribe-catalog-h2">Подпишитесь на рассылку</h2>
+      <p class="subscribe-catalog-p">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
       <form action="https://echo.htmlacademy.ru/courses" method="post" class="subscribe-form">
         <input type="email" name="subscribe-email" value="Ваш e-mail" class="subscribe-enter">
         <input type="submit" value="Подписаться" class="subscribe-button">
@@ -295,13 +293,14 @@
               <a href="https://www.youtube.com/user/htmlacademyru"><img src="images/youtube.svg" width="22" height="17"
                   alt="Ютуб"></a>
 
-            </li> </ul>
-            <ul class="footer-list footer-list-contacts">
-          <li class="footer-item"><a class="phone" href="tel:+7622620563">+7 (812) 812-12-12</a></li>
-          <li class="footer-item" style="align-self: flex-end;"><a href="https://htmlacademy.ru/">
-            <img src="images/htmlacademy.svg" width="115" height="33" alt="Логотип HTML-academy">
-          </a></li>
-        </ul>
+            </li>
+          </ul>
+          <ul class="footer-list footer-list-contacts">
+            <li class="footer-item"><a class="phone" href="tel:+7622620563">+7 (812) 812-12-12</a></li>
+            <li class="footer-item" style="align-self: flex-end;"><a href="https://htmlacademy.ru/">
+                <img src="images/htmlacademy.svg" width="115" height="33" alt="Логотип HTML-academy">
+              </a></li>
+          </ul>
         </address>
       </div>
     </footer>

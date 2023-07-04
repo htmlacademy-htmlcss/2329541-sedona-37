@@ -5,6 +5,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/ptsans-700.woff2") format("woff2");
@@ -689,7 +690,7 @@ fieldset {
 
 .view-item-current {
   border-radius: 4px;
-border: 2px solid var(--icons-basic, #000);
+  border: 2px solid var(--icons-basic, #000);
 }
 
 
@@ -722,6 +723,7 @@ border: 2px solid var(--icons-basic, #000);
 .offers-list:last-child {
   margin-bottom: 80px;
 }
+
 .nav-list {
   display: flex;
   padding-left: 0;

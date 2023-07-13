@@ -51,11 +51,11 @@
         <div class="filter-div">
           <h2 class="hotels-sedona-text-h2">Гостиницы Седоны</h2>
           <ul class="breadcrumbs-list">
-            <a href="index.html">
+            <a href="index.html" class="breadcrumbs-link">
               <li class="breadcrumbs-item"><img src="images/catalog-house.svg" alt=""></li>
             </a>
             <li class="breadcrumbs-item"><img src="images/arrow-white.svg" alt=""></li>
-            <a href="#">
+            <a href="#" class="breadcrumbs-link">
               <li class="breadcrumbs-item">
                 <p class="hotels-sedona-text-p">Гостиницы</p>
               </li>
@@ -67,21 +67,24 @@
             <fieldset class="filter-group">
               <legend class="filter-title">Инфраструктура:</legend>
               <ul class="filter-list-goods">
-                <li class="filter-item-goods">
+                <li class="filter-item-goods" for="checkbox-catalog">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="pool" checked>
+                    <input class="control-input visually-hidden" type="checkbox" name="pool" checked id="checkbox-catalog">
+                    <span class="custom-checkbox"></span>
                     <p class="control-text">Бассейн</p>
                   </label>
                 </li>
-                <li class="filter-item-goods">
+                <li class="filter-item-goods" for="checkbox-catalog">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="parking" checked>
+                    <input class="control-input visually-hidden" type="checkbox" name="pool" checked id="checkbox-catalog">
+                    <span class="custom-checkbox"></span>
                     <p class="control-text">Парковка</p>
                   </label>
                 </li>
-                <li class="filter-item-goods">
+                <li class="filter-item-goods" for="checkbox-catalog">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="wi-fi">
+                    <input class="control-input visually-hidden" type="checkbox" name="pool" id="checkbox-catalog">
+                    <span class="custom-checkbox"></span>
                     <p class="control-text">Wi-Fi</p>
                   </label>
                 </li>
@@ -93,19 +96,22 @@
               <ul class="filter-list-type">
                 <li class="filter-item-type">
                   <label class="control">
-                    <input class="control-input-2" type="radio" name="type-habitaion" value="hotel" checked>
+                    <input class="control-input-2 visually-hidden" type="radio" name="type-habitaion" value="hotel" checked>
+                    <span class="custom-radio"></span>
                     <p class="control-text">Гостиница</p>
                   </label>
                 </li>
                 <li class="filter-item-type">
                   <label class="control">
-                    <input class="control-input-2" type="radio" name="type-habitaion" value="motel">
+                    <input class="control-input-2 visually-hidden" type="radio" name="type-habitaion" value="motel">
+                    <span class="custom-radio"></span>
                     <p class="control-text">Мотель</p>
                   </label>
                 </li>
                 <li class="filter-item-type">
                   <label class="control">
-                    <input class="control-input-2" type="radio" name="type-habitaion" value="aps">
+                    <input class="control-input-2 visually-hidden" type="radio" name="type-habitaion" value="aps">
+                    <span class="custom-radio"></span>
                     <p class="control-text">Апартаменты</p>
                   </label>
                 </li>
@@ -132,8 +138,12 @@
                 </li>
                 </label>
               </ul>
-              <input class="range-price" id="range-price-min" step="100" type="range" min="0" max="12000" value="0">
-              <input class="range-price" id="range-price-max" step="100" type="range" min="0" max="12000">
+              <div class="div-range">
+              <span class="line-range-1"></span>
+              <span class="line-range-2"></span>
+              <button class="button-range range-min" type="button" tabindex="0"></button>
+              <button class="button-range range-max" type="button" tabindex="0"></button>
+            </div>
             </fieldset>
             <fieldset class="filter-buttons">
               <button class="extra-button blue-button" type="submit">Применить</button><br>
@@ -280,6 +290,7 @@
             <li class="catalog-nav-item"><a class="nav-link" href="#">4</a></li>
             <li class="catalog-nav-item catalog-nav-item-white"><a class="nav-link nav-link-white" href="#">...</a></li>
             <li class="catalog-nav-item"><a class="nav-link" href="#">10</a>
+
             </li>
           </ul>
         </nav>

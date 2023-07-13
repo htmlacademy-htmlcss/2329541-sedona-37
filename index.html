@@ -18,7 +18,7 @@
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link current" href="index.html">Главная</a>
+              <a class="navigation-link current" href="index.html"><span class="navigation-span">Главная</span></a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">О&nbsp;Седоне</a>
@@ -33,7 +33,7 @@
                 <img src="images/search.svg" width="20" height="20" alt="Поиск">
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-item-heart">
               <a class="navigation-link" href="#">
                 <img src="images/heart.svg" width="20" height="20" alt="Избранное">
               </a>
@@ -81,19 +81,19 @@
 
 
             <li class="advantages-item">
-              <h3 class="advantages-item-h3">Небольшая площадь</h3>
+              <h3 class="advantages-item-h3">Небольшая<br>площадь</h3>
               <p class="advantages-item-p">Все достопримечательности<br> находятся очень близко</p>
 
 
             </li>
 
             <li class="advantages-item">
-              <h3 class="advantages-item-h3">Красивая дорога</h3>
+              <h3 class="advantages-item-h3">Красивая<br>дорога</h3>
               <p class="advantages-item-p">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
             </li>
 
             <li class="advantages-item">
-              <h3 class="advantages-item-h3">Мало туристов</h3>
+              <h3 class="advantages-item-h3">Мало<br>туристов</h3>
               <p class="advantages-item-p">Большинство едет в Гранд<br> Каньон и толпится там</p>
             </li>
 
@@ -103,7 +103,7 @@
 
             <li class="advantages-item advantages-item-blue">
               <div class="white-line">
-                <h3 class="advantages-item-h3">Там есть мост дьявола</h3>
+                <h3 class="advantages-item-h3">Там есть<br>мост дьявола</h3>
                 <p class="advantages-item-p">Да, по нему можно пройти!<br>Если вы осмелитесь,<br> разумеется</p>
               </div>
             </li>
@@ -207,7 +207,41 @@
         </address>
       </div>
     </footer>
+    <div class="modal-container">
+      <div class="modal">
+    <h2 class="modal-h2">Поиск гостиницы в Седоне</h2>
+    <button class="modal-close-button"><span class="visually-hidden">Закрыть</span></button>
+    <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+      <div class="modal-group">
+      <label for="date-check-in" class="modal-label">Дата заезда:</label>
+      <input class="search-form-field field" type="text" id="date-check-in" name="date-check-in" placeholder="27 апреля 2020" required>
+      <span class="modal-error">Мы не можем отправить вас в прошлое</span>
+    </div>
+    <div class="modal-group">
+      <label for="date-check-out" class="modal-label">Дата выезда:</label>
+      <input class="search-form-field field" type="text" id="date-check-out" name="date-check-out" placeholder="1 сентября 2023" required>
+      <span class="modal-accept">На эти даты есть свободные номера. Пока есть.</span>
+    </div>
+    <div class="number-of-guests">
+      <div class="number-of-adults">
+        <label class="modal-label adults-label" for="adults">Взрослые:</label>
+        <button class="minus-form-button adults" type="submit">-</button>
+        <input class="adults-input modal-input" type="number" id="adults" name="adults" placeholder="1" value="2" required="">
+        <button class="plus-form-button adults" type="submit">+</button>
+      </div>
+      <div class="number-of-kids">
+        <label class="modal-label kids-label" for="adults">Дети:</label>
+        <span class="popup">i</span>
+        <button class="minus-form-button kids" type="submit">-</button>
+        <input class="kids-input modal-input" type="number" id="kids" name="kids" placeholder="1" value="2" required="">
+        <button class="plus-form-button kids" type="submit">+</button>
+      </div>
+    </div>
+    <button class="search-form-button blue-button" type="submit">Найти</button>
+    </form>
 
+    </div>
+  </div>
   </body>
 
 </html>

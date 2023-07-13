@@ -63,7 +63,6 @@ html {
   align-items: center;
   margin: 0;
   padding: 0;
-  margin-right: auto;
   margin-left: 55px;
 }
 
@@ -72,13 +71,12 @@ html {
   display: flex;
   align-items: center;
   margin-right: 70px;
-  margin-left: 350px;
 
 }
 
 .navigation {
-  display: grid;
-  grid-template-columns: 526px 200px;
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   background-color: white;
 
@@ -114,7 +112,7 @@ html {
   font-style: normal;
   margin-top: 69px;
   background-color: white;
-  margin-bottom: 69px;
+  margin-bottom: 90px;
 }
 
 .hero-text-h3 {
@@ -129,7 +127,7 @@ html {
 }
 
 .hero-text-p {
-  width: 698px;
+  width: 651px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -391,6 +389,7 @@ html {
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
+  font-style: normal;
 
 }
 
@@ -492,7 +491,7 @@ html {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  padding: 8px 30px;
+  padding: 8px 28px;
 
 }
 
@@ -727,6 +726,7 @@ fieldset {
 .navigation-logo {
   z-index: 1;
   margin-bottom: -15px;
+  margin-right: 11px;
 }
 
 .page-footer {
@@ -760,6 +760,7 @@ fieldset {
   margin: 0;
   margin-left: 70px;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 .catalog-nav-item {
@@ -817,11 +818,8 @@ fieldset {
 }
 
 .control-input {
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  margin: 0;
-  margin-right: 16px;
+position: relative;
+
 }
 
 .control-input-2 {
@@ -914,7 +912,7 @@ input::-webkit-inner-spin-button {
 }
 
 .filter-div {
-  padding: 35px 70px 70px 70px;
+  padding: 35px 70px 60px 70px;
 }
 
 .hotels-sedona-text-p:hover,
@@ -937,7 +935,8 @@ input::-webkit-inner-spin-button {
 }
 
 
-.navigation-link.current {
+.navigation-span {
+  position: relative;
   border-bottom: 2px solid #756257;
 }
 
@@ -987,8 +986,8 @@ input::-webkit-inner-spin-button {
 
 .nav-favorites-count {
   position: absolute;
-  top: 12px;
-  right: 576px;
+  top: -7px;
+  right: 7px;
   padding: 5px 4.5px;
   font-size: 10px;
   line-height: 10px;
@@ -1046,14 +1045,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.control-text:hover {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.control-text:active {
-  color: rgba(255, 255, 255, 0.3);
-}
-
 .label-price {
   position: absolute;
   color: rgba(0, 0, 0, 0.7);
@@ -1088,4 +1079,266 @@ input::-webkit-inner-spin-button {
   background: var(--buttons-second, #82B3D3);
 }
 
-/* 12 */
+.navigation-item-heart {
+  position: relative;
+}
+
+.custom-checkbox {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.control {
+  position: relative;
+  padding-left: 18px
+}
+.control-input[type="checkbox"]:checked + .custom-checkbox::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-image: url(/images/tick.svg);
+  content: "";
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:focus-within .custom-checkbox {
+  outline: 3px solid #83B3D3;
+}
+
+.custom-radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  display: block;
+}
+
+.control-input-2[type="radio"]:checked + .custom-radio::before {
+  display: block;
+  width: 10px;
+height: 10px;
+top: 5px;
+left: 5px;
+border-radius: 10px;
+margin: auto;
+  content: "";
+  background: rgba(63, 94, 114, 1);
+position: absolute;
+}
+
+.filter-item-type .control  {
+  padding-left: 38px;
+}
+
+.button-range {
+  width: 20px;
+height: 20px;
+border-radius: 4px;
+border: none;
+cursor: pointer;
+background-color: white;
+position: absolute;
+}
+
+.div-range {
+  position: relative;
+}
+
+.line-range-1 {
+  width: 226px;
+  height: 4px;
+
+background: #FFF;
+position: absolute;
+}
+
+.line-range-2 {
+  opacity: 0.30000001192092896;
+  height: 4px;
+  background: #FFF;
+position: absolute;
+width: 61px;
+left: 226px;
+}
+
+.range-min {
+  top: -8px;
+}
+
+.range-max {
+  top: -8px;
+  left: 210px;
+}
+
+
+
+.breadcrumbs-link {
+  text-decoration: none;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+  z-index: 1;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-wrap: wrap;
+
+margin: 0 auto;
+
+background-color: white;
+border-radius: 30px;
+position: relative;
+flex-direction: column;
+padding: 64px 70px;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 52px;
+  height: 52px;
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.modal-h2 {
+  font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+margin: 0;
+height: 36px;
+width: 100%;
+margin-bottom: 64px;
+}
+
+.modal-label {
+  font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-transform: capitalize;
+}
+
+.search-form-field {
+  width: 440px;
+height: 48px;
+border: none;
+background-color: #f2f2f2;
+
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+padding: 0;
+}
+
+.modal-error {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: red;
+}
+
+.modal-accept {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.modal-input {
+
+  width: 35px;
+  text-align: center;
+  height: 48px;
+  font-size: 18px;
+  line-height: 20;
+}
+
+.popup {
+  color: white;
+  background-color: rgba(131, 179, 211, 1);
+  width: 26px;
+height: 26px;
+border-radius: 50%;
+text-align: center;
+margin-right: 0;
+cursor: pointer;
+}
+
+.minus-form-button {
+  position: absolute;
+  width: 40px;
+  height: 48px;
+
+}
+
+.plus-form-button {
+  position: absolute;
+  width: 40px;
+  height: 48px;
+
+}
+
+
+.number-of-guests {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adults-label {
+  margin-right: 46px;
+}
+
+.kids-label {
+  margin-right: 10px;
+}
+
+.number-of-kids {
+  display: grid;
+  grid-template-columns: 50px 26px 120px;
+}
+
+
+.search-form-button {
+  color: var(--basic-white, #FFF);
+  text-align: center;
+
+  font-size: 20px;
+
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  border-radius: 10px;
+background: #83B3D3;
+width: 577px;
+padding: 18px 77px;
+border: none;
+}

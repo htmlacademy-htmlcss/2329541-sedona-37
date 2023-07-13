@@ -19,7 +19,7 @@
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link current" href="index.html"><span class="navigation-span">Главная</span></a>
+              <a class="navigation-link navigation-link-current" href="index.html"><span>Главная</span></a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">О&nbsp;Седоне</a>
@@ -226,19 +226,28 @@
     <div class="number-of-guests">
       <div class="number-of-adults">
         <label class="modal-label adults-label" for="adults">Взрослые:</label>
-        <button class="minus-form-button adults" type="submit">-</button>
+        <!-- <button class="minus-form-button adults" type="submit">-</button> -->
         <input class="adults-input modal-input" type="number" id="adults" name="adults" placeholder="1" value="2" required="">
-        <button class="plus-form-button adults" type="submit">+</button>
+        <!-- <button class="plus-form-button adults" type="submit">+</button> -->
       </div>
       <div class="number-of-kids">
         <label class="modal-label kids-label" for="adults">Дети:</label>
-        <span class="popup">i</span>
-        <button class="minus-form-button kids" type="submit">-</button>
+        <span class="tooltip">
+          <button class="tooltip-toggle" type="button">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="13" cy="13" r="13" fill="#83B3D3"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7H14V9H12V7ZM14 19H12V10H14V19Z" fill="white"/>
+              </svg>
+            </button>
+            <span class="tooltip-text">Укажите количество детей,<br> которые будут с вами, возраст<br> которых от 6 до 18 лет. Дети<br> до 6 лет размещаются<br> бесплатно.</span>
+        </span>
+        <!-- <button class="minus-form-button kids" type="submit">-</button> -->
         <input class="kids-input modal-input" type="number" id="kids" name="kids" placeholder="1" value="2" required="">
-        <button class="plus-form-button kids" type="submit">+</button>
+        <!-- <button class="plus-form-button kids" type="submit">+</button> -->
       </div>
     </div>
     <button class="search-form-button blue-button" type="submit">Найти</button>
+
     </form>
 
     </div>

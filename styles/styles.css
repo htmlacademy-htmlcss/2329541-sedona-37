@@ -680,6 +680,7 @@ fieldset {
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
+  position: relative;
 }
 
 
@@ -807,6 +808,7 @@ fieldset {
   display: flex;
   margin-top: 0;
   margin-bottom: 36px;
+  position: relative;
 }
 
 .offers-imem-img {
@@ -935,13 +937,8 @@ input::-webkit-inner-spin-button {
 }
 
 
-.navigation-span {
-  position: relative;
+.navigation-link-current {
   border-bottom: 2px solid #756257;
-}
-
-.white-line .advantages-item-h3::after {
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-soc a {
@@ -1056,14 +1053,15 @@ input::-webkit-inner-spin-button {
 
 .label-price-1 {
 
-  right: 851px;
-  top: 319px;
+  right: 166px;
+  top: 11px;
+  z-index: 1;
 }
 
 .label-price-2 {
-
-  right: 700px;
-  top: 319px;
+  right: 12px;
+  top: 11px;
+  z-index: 1;
 }
 
 .catalog-nav-item:hover,
@@ -1408,4 +1406,17 @@ justify-content: center;
 .kids-input {
   margin: 0 48px;
   padding: 0;
+}
+
+.tooltip-text:after {
+  content: '';
+  background-image: url(../images/triangle.svg);
+  width: 19px;
+  height: 9px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  right: -7px;
+  margin-left: auto;
+  margin-right: auto;
 }

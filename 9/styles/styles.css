@@ -54,7 +54,8 @@ html {
   text-align: center;
   color: #000000;
   text-decoration: none;
-  padding: 20px 16px;
+  padding: 20px 0;
+  margin-right: 32px;
 }
 
 .navigation-list {
@@ -63,7 +64,7 @@ html {
   align-items: center;
   margin: 0;
   padding: 0;
-  margin-left: 55px;
+  margin-left: 70px;
 }
 
 .navigation-user {
@@ -186,7 +187,7 @@ html {
 
   text-align: center;
   text-transform: uppercase;
-  margin-top: 103px;
+  margin-top: 115px;
 }
 
 .advantages-item-p {
@@ -205,6 +206,7 @@ html {
 
   text-align: center;
   text-transform: uppercase;
+  margin-top: 105px;
 }
 
 .advantages-item-blue p {
@@ -227,12 +229,14 @@ html {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  font-family: "PT Sans";
 }
 
 .footer-button {
   width: 160px;
   height: 36px;
   cursor: pointer;
+  font-family: "PT Sans";
 }
 
 
@@ -240,25 +244,26 @@ html {
 .come-to-sedon {
   background-color: white;
   margin: 64px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cts-h2 {
-  width: 570px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .cts-p {
-  width: 525px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .services-list-item {
@@ -278,6 +283,7 @@ html {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  margin: 30px 0;
 }
 
 .services-list {
@@ -295,15 +301,11 @@ html {
   background: rgba(131, 179, 211, 0.12);
 }
 
-.services-list-item img {
-  margin-top: 80px;
-}
-
 .search {
   width: 1200px;
   text-align: center;
   background-color: white;
-  margin: 96px 0;
+  margin: 96px 0 104px 0;
 }
 
 .search-h2 {
@@ -311,13 +313,15 @@ html {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .search-p {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin-bottom: 54px;
+  margin-bottom: 63px;
+  margin-top: 20px;
 }
 
 
@@ -334,6 +338,7 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   padding: 12px 50px;
+  font-family: "PT Sans";
 
 }
 
@@ -352,7 +357,7 @@ html {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-
+  margin: 0;
 }
 
 .subscribe-text-p {
@@ -361,6 +366,7 @@ html {
   line-height: 26px;
   text-align: center;
   margin-bottom: 54px;
+  margin-top: 20px;
 }
 
 .subscribe-form {
@@ -381,6 +387,7 @@ html {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+  font-family: "PT Sans";
 }
 
 .phone {
@@ -390,7 +397,7 @@ html {
   font-size: 40px;
   line-height: 40px;
   font-style: normal;
-
+  margin-bottom: 7px;
 }
 
 .hotels-sedona {
@@ -422,7 +429,7 @@ html {
   font-size: 20px;
   line-height: 24px;
   padding: 0;
-  margin-right: 70px;
+  margin-right: 66px;
 }
 
 .control {
@@ -466,6 +473,7 @@ html {
   text-transform: uppercase;
   margin-bottom: 32px;
   cursor: pointer;
+  font-family: "PT Sans";
 
 }
 
@@ -478,8 +486,9 @@ html {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  padding: 8px 50px;
+  padding: 8px 58px;
   cursor: pointer;
+  font-family: "PT Sans";
 }
 
 .more-inf {
@@ -507,6 +516,7 @@ html {
   text-transform: uppercase;
   padding: 8px 10px;
   cursor: pointer;
+  font-family: "PT Sans";
 }
 
 .add-to-favourite-checked {
@@ -544,6 +554,9 @@ html {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .subscribe-catalog-p {
@@ -551,6 +564,8 @@ html {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin: 0;
+  margin-bottom: 54px;
 }
 
 .subscribe-button {
@@ -565,6 +580,7 @@ html {
   width: 232px;
   border-radius: 0px 4px 4px 0px;
   cursor: pointer;
+  font-family: "PT Sans";
 }
 
 
@@ -661,10 +677,11 @@ html {
 }
 
 .page-footer address {
-  display: grid;
-  grid-template-columns: 142px 900px;
+  display: flex;
   justify-content: space-between;
-  margin: 40px 30px;
+  padding: 40px 70px;
+  align-items: center;
+  background: white;
 }
 
 fieldset {
@@ -681,6 +698,7 @@ fieldset {
   font-weight: 700;
   line-height: 24px;
   position: relative;
+  padding: 0;
 }
 
 
@@ -690,6 +708,7 @@ fieldset {
   padding: 14px 20px;
   border: 2px solid rgba(229, 229, 229, 1);
   margin-right: 70px;
+  font-family: "PT Sans";
 }
 
 .sort-choice:hover,
@@ -712,13 +731,14 @@ fieldset {
 
 }
 
-.view-item {
+.button-view {
   border-radius: 4px;
   border: 2px solid var(--forms-elements-1, #E5E5E5);
   padding: 14px 16px;
+  outline: none;
 }
 
-.view-item-current {
+.button-view-current {
   border-radius: 4px;
   border: 2px solid var(--icons-basic, #000);
 }
@@ -727,7 +747,14 @@ fieldset {
 .navigation-logo {
   z-index: 1;
   margin-bottom: -15px;
-  margin-right: 11px;
+  margin-right: 45px;
+}
+
+.logo {}
+
+navigation-link-logo {
+  display: block;
+  padding: 0;
 }
 
 .page-footer {
@@ -807,7 +834,7 @@ fieldset {
 .filter-list-price {
   display: flex;
   margin-top: 0;
-  margin-bottom: 36px;
+  margin-bottom: 43px;
   position: relative;
 }
 
@@ -820,7 +847,7 @@ fieldset {
 }
 
 .control-input {
-position: relative;
+  position: relative;
 
 }
 
@@ -883,9 +910,13 @@ position: relative;
 }
 
 .price-control-min {
-
+  border-radius: 4px 0px 0px 4px;
   margin-right: 2px;
 
+}
+
+.price-control-max {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .price-control:hover {
@@ -901,20 +932,20 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-.view-item:hover {
+.button-view:hover {
   border: 2px solid rgba(0, 0, 0, 1)
 }
 
-.view-item:focus {
+.button-view:focus {
   border: 2px solid rgba(104, 162, 202, 1)
 }
 
-.view-item:active {
+.button-view:active {
   border: 2px solid rgba(0, 0, 0, 1)
 }
 
 .filter-div {
-  padding: 35px 70px 60px 70px;
+  padding: 35px 70px 70px 70px;
 }
 
 .hotels-sedona-text-p:hover,
@@ -941,6 +972,10 @@ input::-webkit-inner-spin-button {
   border-bottom: 2px solid #756257;
 }
 
+.footer-soc {
+  margin: 0 13px;
+}
+
 .footer-soc a {
   height: 17px;
   color: #83B3D3;
@@ -958,17 +993,17 @@ input::-webkit-inner-spin-button {
   outline: none;
 }
 
-.footer-item a {
+.footer-item {
   color: rgba(0, 0, 0, 1);
 }
 
-.footer-item a:hover,
-.footer-item a:focus {
+.footer-item:hover,
+.footer-item:focus {
   color: rgba(117, 97, 87, 1);
   outline: none;
 }
 
-.footer-item a:active {
+.footer-item:active {
   color: rgba(117, 97, 87, 0.3);
   outline: none;
 }
@@ -984,7 +1019,7 @@ input::-webkit-inner-spin-button {
 .nav-favorites-count {
   position: absolute;
   top: -7px;
-  right: 7px;
+  right: 22px;
   padding: 5px 4.5px;
   font-size: 10px;
   line-height: 10px;
@@ -1030,10 +1065,11 @@ input::-webkit-inner-spin-button {
 .filter-buttons {
   padding: 0;
   margin-top: 56px;
+  margin-left: 5px;
 }
 
 .filter-group:nth-child(3) {
-  margin-left: auto;
+  margin-left: 83px;
 }
 
 
@@ -1082,21 +1118,22 @@ input::-webkit-inner-spin-button {
 }
 
 .custom-checkbox {
-    position: absolute;
-    left: 1px;
-    top: 1px;
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
 }
 
 .control {
   position: relative;
   padding-left: 18px
 }
-.control-input[type="checkbox"]:checked + .custom-checkbox::before {
+
+.control-input[type="checkbox"]:checked+.custom-checkbox::before {
   display: block;
   width: 20px;
   height: 20px;
@@ -1124,31 +1161,31 @@ input::-webkit-inner-spin-button {
   display: block;
 }
 
-.control-input-2[type="radio"]:checked + .custom-radio::before {
+.control-input-2[type="radio"]:checked+.custom-radio::before {
   display: block;
   width: 10px;
-height: 10px;
-top: 5px;
-left: 5px;
-border-radius: 10px;
-margin: auto;
+  height: 10px;
+  top: 5px;
+  left: 5px;
+  border-radius: 10px;
+  margin: auto;
   content: "";
   background: rgba(63, 94, 114, 1);
-position: absolute;
+  position: absolute;
 }
 
-.filter-item-type .control  {
+.filter-item-type .control {
   padding-left: 38px;
 }
 
 .button-range {
   width: 20px;
-height: 20px;
-border-radius: 4px;
-border: none;
-cursor: pointer;
-background-color: white;
-position: absolute;
+  height: 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
 }
 
 .div-range {
@@ -1159,26 +1196,28 @@ position: absolute;
   width: 226px;
   height: 4px;
 
-background: #FFF;
-position: absolute;
+  background: #FFF;
+  position: absolute;
+  left: 2px;
 }
 
 .line-range-2 {
   opacity: 0.30000001192092896;
   height: 4px;
   background: #FFF;
-position: absolute;
-width: 61px;
-left: 226px;
+  position: absolute;
+  width: 61px;
+  left: 228px;
 }
 
 .range-min {
-  top: -8px;
+  top: -7px;
+  left: 2px;
 }
 
 .range-max {
-  top: -8px;
-  left: 210px;
+  top: -7px;
+  left: 208px;
 }
 
 
@@ -1204,13 +1243,13 @@ left: 226px;
   display: flex;
   flex-wrap: wrap;
 
-margin: 0 auto;
+  margin: 0 auto;
 
-background-color: white;
-border-radius: 30px;
-position: relative;
-flex-direction: column;
-padding: 64px 70px;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  flex-direction: column;
+  padding: 64px 70px;
 }
 
 .modal-close-button {
@@ -1230,35 +1269,35 @@ padding: 64px 70px;
 
 .modal-h2 {
   font-size: 30px;
-font-weight: 700;
-line-height: 36px;
-text-transform: uppercase;
-margin: 0;
-height: 36px;
-width: 100%;
-margin-bottom: 64px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  height: 36px;
+  width: 100%;
+  margin-bottom: 64px;
 }
 
 .modal-label {
   font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-text-transform: capitalize;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
 }
 
 .search-form-field {
   width: 440px;
-height: 48px;
-border: none;
-background-color: #f2f2f2;
+  height: 48px;
+  border: none;
+  background-color: #f2f2f2;
 
-font-size: 18px;
-font-weight: 700;
-line-height: 24px;
-padding: 0;
-background-image: url(../images/calendar.svg);
-background-repeat: no-repeat;
-background-position: right 22px center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0;
+  background-image: url(../images/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: right 22px center;
 
 }
 
@@ -1291,30 +1330,36 @@ background-position: right 22px center;
   font-weight: 700;
   border: none;
   background-color: #f2f2f2;
-}
-
-.popup {
-  color: white;
-  background-color: rgba(131, 179, 211, 1);
-  width: 26px;
-height: 26px;
-border-radius: 50%;
-text-align: center;
-margin-right: 0;
-cursor: pointer;
+  padding: 0 40px;
 }
 
 .minus-form-button {
+  background-color: #f2f2f2;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-image: url(../images/minus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
   position: absolute;
-  width: 40px;
-  height: 48px;
+  top: 14px;
+  left: 9px;
 
 }
 
 .plus-form-button {
+  background-color: #f2f2f2;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-image: url(../images/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
   position: absolute;
-  width: 40px;
-  height: 48px;
+  right: 10px;
+  top: 14px;
 
 }
 
@@ -1349,10 +1394,11 @@ cursor: pointer;
   line-height: 24px;
   text-transform: uppercase;
   border-radius: 10px;
-background: #83B3D3;
-width: 577px;
-padding: 18px 77px;
-border: none;
+  background: #83B3D3;
+  width: 577px;
+  padding: 18px 77px;
+  border: none;
+  font-family: "PT Sans";
 }
 
 .modal-group {
@@ -1368,6 +1414,8 @@ border: none;
   padding: 0;
   margin: 0;
   display: block;
+  margin-right: 46px;
+  margin-top: 5px;
 }
 
 .tooltip-icon {
@@ -1381,31 +1429,31 @@ border: none;
   border-radius: 10px;
   background: var(--basic-dark, #333);
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.30);
-  width: 256px;
-height: 143px;
-color: white;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-text-align: center;
-justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 26px;
-    right: 90px;
-    display: none;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 26px;
+  right: 120px;
+  display: none;
+  padding: 15px 18px 18px 22px;
+  text-align: left;
 
 }
 
-.tooltip-toggle:hover + .tooltip-text,
-.tooltip-toggle:focus + .tooltip-text {
+.tooltip-toggle:hover+.tooltip-text,
+.tooltip-toggle:focus+.tooltip-text {
   display: flex;
 }
 
 .kids-input {
-  margin: 0 48px;
-  padding: 0;
+  margin: 0;
+  padding: 0 40px;
 }
 
 .tooltip-text:after {
@@ -1419,4 +1467,99 @@ justify-content: center;
   right: -7px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.adults-form {
+  display: flex;
+  position: relative;
+}
+
+.number-of-adults {
+  display: flex;
+  align-items: center;
+}
+
+.kids-form {
+  display: flex;
+  position: relative;
+}
+
+.modal input::-webkit-input-placeholder {
+  color: black;
+}
+
+.modal input::-moz-placeholder {
+  color: black;
+}
+
+
+.form-button {
+  opacity: 0.3;
+  position: absolute;
+}
+
+.form-button:hover {
+  opacity: 1;
+}
+
+.form-button:focus {
+  outline: 3px solid #83B3D3;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.form-button:active {
+  opacity: 0.2;
+}
+
+
+.modal-close-button:hover {
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.modal-close-button:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.modal-close-button:active {
+  opacity: 0.2;
+}
+
+.navigation-link:hover {
+  opacity: 0.7;
+}
+
+.navigation-link:active {
+  opacity: 0.3;
+}
+
+.control:focus {
+  outline: none;
+}
+
+.label-checkbox:focus-within .custom-checkbox,
+.label-radio:focus-within .custom-radio {
+  outline: 3px solid #83B3D3;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
+.house-img {
+  margin-top: 78px;
+}
+
+.food-img {
+  margin-top: 81px;
+}
+
+.gifts-img {
+  margin-top: 74px;
+}
+
+.page-wrapper {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 1200px;
+  margin: 0 auto;
 }

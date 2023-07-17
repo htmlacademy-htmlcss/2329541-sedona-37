@@ -1345,7 +1345,7 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
   background-position: right 22px center;
   padding-left: 20px;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
 }
 
 .modal-error {

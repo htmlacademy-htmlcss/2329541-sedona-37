@@ -417,6 +417,7 @@ html {
   width: 1200px;
   margin: 0 auto;
   background: url(../images/catalog-background.jpg);
+  background-repeat: no-repeat;
 }
 
 .hotels-sedona-text-h2 {

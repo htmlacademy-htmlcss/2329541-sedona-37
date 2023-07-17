@@ -24,18 +24,6 @@ body {
 }
 
 
-main {
-  background-color: white;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-
-}
-
 html {
   height: 100%;
 }
@@ -80,6 +68,8 @@ html {
   margin: 0;
   padding: 0;
   margin-left: 70px;
+  list-style-type: none;
+
 }
 
 .navigation-user {
@@ -87,6 +77,8 @@ html {
   display: flex;
   align-items: center;
   margin-right: 70px;
+  list-style-type: none;
+  padding: 0;
 
 }
 
@@ -131,7 +123,7 @@ html {
   margin-bottom: 90px;
 }
 
-.hero-text-h3 {
+.hero-text-h2 {
   width: 732px;
   font-weight: 700;
   font-size: 30px;
@@ -160,6 +152,8 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style-type: none;
+
 }
 
 
@@ -245,14 +239,14 @@ html {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 .footer-button {
   width: 160px;
   height: 36px;
   cursor: pointer;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 
@@ -307,6 +301,8 @@ html {
   height: 385px;
   display: flex;
   justify-content: flex-start;
+  list-style-type: none;
+  padding: 0;
 }
 
 .services-list-item:nth-child(1) {
@@ -354,7 +350,7 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   padding: 12px 50px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 
 }
 
@@ -403,7 +399,7 @@ html {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   padding-left: 20px;
 }
 
@@ -441,12 +437,15 @@ html {
 }
 
 .filter-group {
+  border: none;
+  margin: 0;
   display: inline-block;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   padding: 0;
   margin-right: 66px;
+
 }
 
 .control {
@@ -475,6 +474,8 @@ html {
   margin-bottom: 40px;
   padding: 0;
   margin-top: 8px;
+  list-style-type: none;
+
 }
 
 .extra-button {
@@ -490,7 +491,7 @@ html {
   text-transform: uppercase;
   margin-bottom: 32px;
   cursor: pointer;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 
 }
 
@@ -505,7 +506,7 @@ html {
   text-transform: uppercase;
   padding: 8px 58px;
   cursor: pointer;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 .more-inf {
@@ -533,7 +534,7 @@ html {
   text-transform: uppercase;
   padding: 8px 10px;
   cursor: pointer;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 .add-to-favourite-checked {
@@ -556,6 +557,7 @@ html {
 .rating-stars {
   padding: 0;
   display: flex;
+  list-style-type: none;
 }
 
 .subscribe-catalog {
@@ -599,7 +601,7 @@ html {
   width: 232px;
   border-radius: 0px 4px 4px 0px;
   cursor: pointer;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 
@@ -684,6 +686,8 @@ html {
   display: flex;
   max-width: 142px;
   justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer-list-contacts {
@@ -705,10 +709,7 @@ html {
   background: white;
 }
 
-fieldset {
-  border: none;
-  margin: 0;
-}
+
 
 .price-control {
   width: 123px;
@@ -721,7 +722,7 @@ fieldset {
   position: relative;
   padding: 0;
   padding-left: 20px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 
@@ -731,10 +732,10 @@ fieldset {
   padding: 12px 14px;
   border: 2px solid rgba(229, 229, 229, 1);
   margin-right: 70px;
-  font-family: "PT Sans";
-font-size: 18px;
-font-weight: 400;
-line-height: 21px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .sort-choice:hover,
@@ -753,6 +754,8 @@ line-height: 21px;
   width: 160px;
   justify-content: space-evenly;
   gap: 10px;
+  list-style-type: none;
+  padding: 0;
 
 
 }
@@ -802,6 +805,8 @@ navigation-link-logo {
 
 .offers-list {
   margin: 0;
+  list-style-type: none;
+  padding: 0;
 
 }
 
@@ -816,6 +821,8 @@ navigation-link-logo {
   margin-left: 70px;
   margin-bottom: 60px;
   flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
 }
 
 .catalog-nav-item {
@@ -863,6 +870,8 @@ navigation-link-logo {
   margin-top: 0;
   margin-bottom: 43px;
   position: relative;
+  list-style-type: none;
+  padding: 0;
 }
 
 .offers-imem-img {
@@ -1068,6 +1077,8 @@ input::-webkit-inner-spin-button {
 
 .filter-list-goods {
   margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 
@@ -1089,12 +1100,17 @@ input::-webkit-inner-spin-button {
 
 .filter-list-type {
   margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .filter-buttons {
+  border: none;
+  margin: 0;
   padding: 0;
   margin-top: 56px;
   margin-left: 5px;
+
 }
 
 .filter-group:nth-child(3) {
@@ -1362,7 +1378,7 @@ input::-webkit-inner-spin-button {
   border: none;
   background-color: #f2f2f2;
   padding: 0 40px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 .minus-form-button {
@@ -1438,7 +1454,7 @@ button.minus-form-button.kids {
   width: 577px;
   padding: 18px 77px;
   border: none;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 .modal-group {
@@ -1466,27 +1482,27 @@ button.minus-form-button.kids {
 }
 
 
-  .tooltip-text {
-    border-radius: 10px;
-    background: var(--basic-dark, #333);
-    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.30);
-    color: white;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 26px;
-    right: 112px;
-    padding: 15px 18px 18px 22px;
-    text-align: left;
-    display: none;
-    width: 216px;
-    height: 110px;
-    z-index: 1;
+.tooltip-text {
+  border-radius: 10px;
+  background: var(--basic-dark, #333);
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.30);
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 26px;
+  right: 112px;
+  padding: 15px 18px 18px 22px;
+  text-align: left;
+  display: none;
+  width: 216px;
+  height: 110px;
+  z-index: 1;
 
 }
 
@@ -1599,15 +1615,26 @@ button.minus-form-button.kids {
 }
 
 .gifts-img {
-  margin-top: 74px;
+  margin-top: 79px;
+  margin-bottom: -5px;
 }
 
 .page-wrapper {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   width: 1200px;
   margin: 0 auto;
+  background-color: white;
 }
 
 .breadcrumbs-arrow {
   margin: 0 6px;
+}
+
+.advantages-item-h3.blue::after {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 30px auto;
 }

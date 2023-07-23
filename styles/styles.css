@@ -58,7 +58,7 @@ html {
   text-align: center;
   color: #000000;
   text-decoration: none;
-  padding: 17px 0;
+  padding: 19px 0;
   margin-right: 32px;
   display: block;
 }
@@ -97,6 +97,7 @@ html {
 }
 
 .navigation-user {
+  margin: 0;
   max-width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,25 +126,21 @@ html {
 
 
 .hero {
-  height: 485px;
+  min-height: 485px;
 
   border-radius: 0px;
   background-color: rgb(108,135,158);
-  background: url(../images/index-background.jpg);
+  background: url(../images/index-background.png);
+  background-size: cover;
+  padding-top: 50px;
 }
 
 .hero-welcome {
   display: block;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
-.hero-bottom {
-  margin-top: 26px;
-  display: block;
-  width: 100%;
 
-}
 
 .hero-text {
   width: 1200px;
@@ -239,7 +236,7 @@ html {
 
   text-align: center;
   text-transform: uppercase;
-  margin-top: 115px;
+  margin-top: 110px;
 }
 
 .advantages-item-p {
@@ -818,7 +815,7 @@ html {
 
 
 .price-control {
-  width: 13px;
+  width: 143px;
   height: 48px;
   border: none;
   background-color: rgba(242, 242, 242, 1);
@@ -902,6 +899,7 @@ html {
   -ms-flex-item-align: start;
       align-self: flex-start;
       margin-left: 70px;
+
 }
 
 .page-footer {
@@ -1210,13 +1208,17 @@ input::-webkit-inner-spin-button {
   position: absolute;
   top: -9px;
   right: 24px;
-  padding: 5px 4.5px;
   font-size: 10px;
   line-height: 10px;
   font-weight: 400;
   color: #ffffff;
-  border-radius: 50%;
+  border-radius: 20px;
   background-color: #7DB54F;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .filter-item-goods:not(:last-child) {
@@ -1485,8 +1487,8 @@ input::-webkit-inner-spin-button {
   text-transform: uppercase;
   margin: 0;
   width: 100%;
+  padding-right: 40px;
   margin-bottom: 64px;
-  padding-right: 20px;
 }
 
 .modal-label {
@@ -1498,7 +1500,7 @@ input::-webkit-inner-spin-button {
 }
 
 .search-form-field {
-  width: 420px;
+  width: 438px;
   height: 48px;
   border: none;
   background-color: #f2f2f2;
@@ -1510,8 +1512,12 @@ input::-webkit-inner-spin-button {
   background-image: url(../images/calendar.svg);
   background-repeat: no-repeat;
   background-position: right 22px center;
-  padding-left: 24px;
+  padding-left: 19px;
   font-family: "PT Sans", sans-serif;
+  margin-left: 25px;
+}
+
+.search-form-field-2 {
   margin-left: 20px;
 }
 
@@ -1521,6 +1527,7 @@ input::-webkit-inner-spin-button {
   text-align: center;
   color: red;
   padding-left: 18px;
+  margin-top: 4px;
 
 }
 
@@ -1529,11 +1536,12 @@ input::-webkit-inner-spin-button {
   display: block;
   text-align: center;
   padding-left: 67px;
+  margin-top: 4px;
 }
 
 .modal-input {
 
-  width: 35px;
+  width: 109px;
   text-align: center;
   height: 48px;
   font-size: 18px;
@@ -1541,7 +1549,7 @@ input::-webkit-inner-spin-button {
   font-weight: 700;
   border: none;
   background-color: #f2f2f2;
-  padding: 0 40px;
+  padding: 1px 40px 0 42px;
   font-family: "PT Sans", sans-serif;
 }
 
@@ -1555,8 +1563,8 @@ input::-webkit-inner-spin-button {
   background-position: center;
   cursor: pointer;
   position: absolute;
-  top: 13px;
-  left: 11px;
+  top: 14px;
+  left: 10px;
 
 }
 
@@ -1570,18 +1578,18 @@ input::-webkit-inner-spin-button {
   background-position: center;
   cursor: pointer;
   position: absolute;
-  right: 12px;
+  right: 8px;
   top: 14px;
 
 }
 
 
 button.plus-form-button.kids {
-  right: 10px;
+  right: 8px;
 }
 
 button.minus-form-button.kids {
-  left: 13px;
+  left: 10px;
 }
 
 .number-of-guests {
@@ -1590,12 +1598,12 @@ button.minus-form-button.kids {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+
   margin-bottom: 48px;
 }
 
 .adults-label {
-  margin-right: 44px;
+  margin-right: 46px;
 }
 
 .kids-label {
@@ -1639,8 +1647,13 @@ button.minus-form-button.kids {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       flex-direction: column;
-      margin-bottom: 48px;
+      margin-bottom: 24px;
 }
+
+.modal-group-2  {
+  margin-top: 0px;
+}
+
 
 .tooltip-toggle {
   border: none;
@@ -1648,8 +1661,8 @@ button.minus-form-button.kids {
   padding: 0;
   margin: 0;
   display: block;
-  margin-right: 42px;
-  margin-top: 5px;
+  margin-right: 46px;
+  margin-top: 3px;
 }
 
 .tooltip-icon {
@@ -1678,14 +1691,15 @@ button.minus-form-button.kids {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 26px;
+  bottom: 25px;
   right: 112px;
-  padding: 15px 18px 18px 22px;
+  padding: 16px 23px 18px 22px;
   text-align: left;
   display: none;
   width: 256px;
   height: 143px;
   z-index: 1;
+  font-family: "PT Sans", sans-serif;
 
 }
 
@@ -1698,7 +1712,7 @@ button.minus-form-button.kids {
 
 .kids-input {
   margin: 0;
-  padding: 0 40px;
+  padding: 1px 40px 0 41px;
 }
 
 .tooltip-text:after {
@@ -1728,6 +1742,7 @@ button.minus-form-button.kids {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          margin-right: 89px;
 }
 
 .kids-form {

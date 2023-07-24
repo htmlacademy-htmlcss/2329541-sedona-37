@@ -1344,15 +1344,6 @@ input::-webkit-inner-spin-button {
   content: "";
 }
 
-.control-input[type="checkbox"]:checked+.custom-checkbox::before {
-  display: block;
-  width: 20px;
-  height: 20px;
-  margin: auto;
-  content: "";
-  background: url(/images/tick.svg)
-  position: absolute;
-}
 
 .control:hover {
   opacity: 0.6;

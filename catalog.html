@@ -14,12 +14,12 @@
       <header class="page-header" data-test="header">
         <div class="container">
           <nav class="navigation">
-            <ul class="navigation-list">
-              <li class="navigation-item navigation-logo">
+
                 <a class="navigation-link-logo" href="index.html">
                   <img src="images/logo.svg" width="140" height="70" alt="Логотип." class="logo">
                 </a>
-              </li>
+
+              <ul class="navigation-list">
               <li class="navigation-item">
                 <a class="navigation-link" href="index.html"><span>Главная</span></a>
               </li>
@@ -56,7 +56,7 @@
             <h2 class="hotels-sedona-text-h2">Гостиницы Седоны</h2>
             <ul class="breadcrumbs-list">
               <li class="breadcrumbs-item"><a href="index.html" class="breadcrumbs-link"><img
-                    src="images/catalog-house.svg" alt="Дом." width="12" height="12" class="house-catalog"></a></li>
+                    src="images/catalog-house.svg" alt="На главную страницу." width="12" height="12" class="house-catalog"></a></li>
 
               <li class="breadcrumbs-item">
                 <a href="#" class="breadcrumbs-link">
@@ -146,10 +146,13 @@
 
                 </ul>
                 <div class="div-range">
+                  <span class="visually-hidden">Ползунок выбора цены.</span>
                   <span class="line-range-1"></span>
                   <span class="line-range-2"></span>
                   <button class="button-range range-min" type="button" tabindex="0"></button>
+                  <span class="visually-hidden">Минимальная цена.</span>
                   <button class="button-range range-max" type="button" tabindex="0"></button>
+                  <span class="visually-hidden">Максимальная цена.</span>
                 </div>
               </fieldset>
               <fieldset class="filter-buttons">
